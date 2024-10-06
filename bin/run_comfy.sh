@@ -1,4 +1,5 @@
 #!/bin/bash
 
-source ~/.local/share/ComfyUI/venv/bin/activate
-python ~/.local/share/ComfyUI/main.py --listen
+cd ~/.local/share/ComfyUI
+source venv/bin/activate
+python main.py --listen
